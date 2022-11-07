@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.cards {
+  width: 100%;
+  padding: 20px;
+  height: 100vh;
+  background: linear-gradient(rgb(226, 176, 10) 52%, rgb(210, 209, 129) 52%);
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  padding: 40px;
+  width: 400px;
+  margin: 0 auto;
+  height: 550px;
+  background: linear-gradient(90deg, rgb(235, 233, 146) 50%, rgb(255, 255, 255) 50%);
+  box-shadow: 12px 14px 8px 0px rgb(0, 0, 0);
+}
+.card .first-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  width: 280px;
+}
+.card:hover .second-card {
+  right: 55px;
+}
+
+.second-card {
+  right: -288px;
+  top: 40px;
+  position: absolute;
+  padding-top: 100px;
+  width: 285px;
+  height: 386px;
+  background-color: black;
+  color: white;
+  transition: 0.3s ease-in;
+}
+.second-card h2 {
+  text-align: center;
+}
+.second-card p {
+  text-align: center;
+}
+.second-card .i {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 30px;
+}/*# sourceMappingURL=main.min.css.map */
